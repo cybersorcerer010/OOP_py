@@ -3,10 +3,6 @@
 This repository explores key concepts in Python's Object-Oriented Programming (OOP). They focus on designing custom classes, 
 implementing inheritance, and leveraging polymorphism to create dynamic and reusable code.
 
-## Table of Contents
-- [Design Your Own Class](#design-your-own-class)
-- [Polymorphism](#polymorphism-challenge)
-
 ---
 
 ## Part 1: Design Your Own Class 🏗️
@@ -22,6 +18,8 @@ The first part focuses on custom class representing anything you like with the f
 hero = Superhero("Thunderbolt", "Lightning Speed", "Sky Realm")
 print(hero.show_identity())  # Output: I am Thunderbolt, with the power of Lightning Speed!
 ```
+
+---
 
 ## Part 2: Polymorphism 🎭
 
@@ -40,3 +38,4 @@ for vehicle in vehicles:
 # Flying ✈️
 # Sailing ⛵
 ```
+---
