@@ -14,9 +14,10 @@ The first part focuses on custom class representing anything you like with the f
 
 ### Example Output:
 ```python
-# Creating a superhero
-hero = Superhero("Thunderbolt", "Lightning Speed", "Sky Realm")
-print(hero.show_identity())  # Output: I am Thunderbolt, with the power of Lightning Speed!
+❯ python class.py
+I am Thunderbolt, with the power of Lightning Speed!
+I am TechBlade, and my gadget is a Energy Sword!
+Sky Realm
 ```
 
 ---
@@ -28,14 +29,9 @@ the action differently. This emphasizes reusability and dynamic method behavior.
 
 ### Example Output:
 ```python
-Copy code
-# Using polymorphism with vehicles
-vehicles = [Car(), Plane(), Boat()]
-for vehicle in vehicles:
-    print(vehicle.move())
-# Output:
-# Driving 🚗
-# Flying ✈️
-# Sailing ⛵
+❯ python polymorphism.py 
+Driving 🚗
+Flying ✈️
+Sailing ⛵
 ```
 ---
